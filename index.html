@@ -15,6 +15,10 @@
     />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://mtfirmlab.vercel.app/" />
+    <meta
+      property="og:image"
+      content="https://mtfirmlab.vercel.app/images/hero-workspace.jpg"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -57,36 +61,27 @@
 
     <main>
       <section class="hero">
-        <div class="container hero-grid">
+        <div class="hero-media" aria-hidden="true">
+          <img
+            class="hero-image"
+            src="./images/hero-workspace.jpg"
+            alt=""
+            width="2400"
+            height="1340"
+            fetchpriority="high"
+          />
+        </div>
+        <div class="hero-shade" aria-hidden="true"></div>
+        <div class="container hero-content">
           <div class="hero-copy">
-            <p class="eyebrow">Digital Product Studio</p>
-            <h1>
-              日常の「困った」を、<br />
-              <span class="text-gradient">使いやすいサービス</span>に。
-            </h1>
+            <p class="hero-brand">MTfirmLab</p>
+            <h1>日常の「困った」を、使いやすいサービスに。</h1>
             <p class="hero-lead">
-              MTfirmLabは、アプリ・Webサービスの企画から開発・運営までを一貫して行う個人事業のデジタルプロダクトスタジオです。シンプルで信頼できる体験を、丁寧に形にします。
+              アプリ・Webサービスの企画から開発・運営まで。シンプルで信頼できる体験を、丁寧に形にします。
             </p>
             <div class="hero-actions">
               <a class="btn btn-primary" href="#services">事業内容を見る</a>
-              <a class="btn btn-secondary" href="#contact">お問い合わせ</a>
-            </div>
-          </div>
-          <div class="hero-panel" aria-hidden="true">
-            <div class="hero-stat">
-              <span class="hero-stat-label">Focus</span>
-              <strong>UX × 実用性</strong>
-              <p>誰でも迷わず使える設計を最優先に。</p>
-            </div>
-            <div class="hero-stat">
-              <span class="hero-stat-label">Scope</span>
-              <strong>企画 → 開発 → 運用</strong>
-              <p>リリース後の改善まで継続的に支援。</p>
-            </div>
-            <div class="hero-stat">
-              <span class="hero-stat-label">Field</span>
-              <strong>モバイル / Web</strong>
-              <p>生活・業務の現場に寄り添うプロダクト。</p>
+              <a class="btn btn-ghost" href="#contact">お問い合わせ</a>
             </div>
           </div>
         </div>
